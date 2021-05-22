@@ -43,10 +43,8 @@ button.addEventListener("click", () => {
     .then((res) => res.json())
     .then((data) => {
       console.log(data);
-
       //When Fill Input Field Then Clear Input Field
       city.value = " ";
-
       //Now Show All Data Value
       showData.innerHTML = `
             <ul>
