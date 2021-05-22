@@ -1,0 +1,85 @@
+body {
+  background-image: url("../assets/bg.jpg");
+  background-color: tomato;
+  background-position: initial;
+}
+.container {
+  margin-top: 10px;
+  margin-left: 25%;
+  background: rgba(62, 55, 55, 0);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  height: 200px;
+  width: 50%;
+  transition: all 0.3s;
+}
+
+.container:hover {
+  background: rgba(62, 55, 55, 0.35);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(12.5px);
+  -webkit-backdrop-filter: blur(12.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  height: 200px;
+  width: 50%;
+  margin-top: 10px;
+  margin-left: 25%;
+}
+#city {
+  height: 30px;
+  font-size: 20px;
+  border-radius: 7px;
+  width: 80%;
+}
+.submit {
+  height: 30px;
+  border-radius: 7px;
+  font-size: 20px;
+  background: rgb(37, 75, 32);
+  color: white;
+  width: 50%;
+  font-weight: bold;
+  border-right: 4px solid black;
+  border-bottom: 4px solid black;
+}
+.submit:hover {
+  background: greenyellow;
+  color: black;
+  font-weight: bold;
+}
+.sub-focus {
+  height: 30px;
+  border-radius: 7px;
+  font-size: 20px;
+  color: white;
+  width: 50%;
+  font-weight: bold;
+  background: rgb(197, 25, 25);
+  border: none;
+}
+
+h2 {
+  font-family: monospace;
+  font-size: 40px;
+  padding: none;
+}
+ul {
+  background-color: thistle;
+  height: 300px;
+  width: 95%;
+}
+li {
+  list-style: none;
+}
+.desc {
+  font-size: 40px;
+  text-align: center;
+}
+.temp {
+  font-size: x-large;
+  text-align: center;
+}
