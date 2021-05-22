@@ -18,10 +18,10 @@ var hrs = d.getHours();
 console.log(hrs);
 if (hrs <= 19) {
   document.querySelector("body").style["background-image"] =
-    "url('./assets/sunny.jpeg')";
+    "url('assets/sunny.jpeg')";
 } else {
   document.querySelector("body").style["background-image"] =
-    "url('./assets/night.jpg')";
+    "url('assets/night.jpg')";
 }
 const city = document.querySelector("#city");
 var button = document.querySelector("#submit");
